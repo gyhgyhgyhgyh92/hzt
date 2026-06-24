@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+config.json
+logs/
+ai-pet-secure/
+ai-pet/
