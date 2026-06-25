@@ -1,0 +1,32 @@
+# Environment files
+.env
+
+# Python-related files
+__pycache__/
+*.py[cod]
+
+# macOS system files
+.DS_Store
+
+# Streamlit files
+.streamlit/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Build and distribution directories
+dist/
+build/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3

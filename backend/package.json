@@ -1,0 +1,17 @@
+{
+  "name": "campus-docs-assistant-backend",
+  "version": "1.0.0",
+  "description": "校园AI助手后端服务",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sql.js": "^1.10.3",
+    "cors": "^2.8.5",
+    "node-cron": "^3.0.3"
+  }
+}

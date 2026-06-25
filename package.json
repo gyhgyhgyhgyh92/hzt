@@ -1,0 +1,15 @@
+{
+  "name": "campus-docs-assistant-refactored",
+  "version": "1.0.0",
+  "description": "校园AI助手 - AI产品经理职业能力展示平台（好铁汁出品）",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["AI", "产品经理", "校园助手", "好铁汁"],
+  "author": "龚运好",
+  "license": "MIT"
+}
